@@ -23,10 +23,14 @@ AWS_ACCESS_KEY_ID=<access key>
 AWS_SECRET_ACCESS_KEY=<secret access key>
 ```
 
-```bash
-`pass env <password file>`
+invoking command `pass env <password file>` will show this file in form 
+
+```
+export AWS_ACCESS_KEY_ID=<access key>
+export AWS_SECRET_ACCESS_KEY=<secret access key>
 ```
 
+i.e. suitable to load to current shell enviromnet by `` operator
 
 ## Installation
 
