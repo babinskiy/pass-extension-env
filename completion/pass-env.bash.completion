@@ -1,0 +1,6 @@
+
+PASSWORD_ENV_EXTENSION_COMMANDS+=(env)
+
+__password_store_extension_complete_tail() {
+    _pass_complete_entries 1
+}
